@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "lerna version --no-git-tag-version --no-push --force-publish"
+    "release": "lerna version --no-push --force-publish"
   },
   "author": "",
   "license": "ISC",
