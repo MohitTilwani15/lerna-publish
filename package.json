@@ -1,10 +1,10 @@
 {
-  "name": "lerna",
+  "name": "lerna-publish",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "lerna version --no-git-tag-version --no-push --force-publish"
   },
   "author": "",
   "license": "ISC",
